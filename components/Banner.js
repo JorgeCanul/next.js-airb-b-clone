@@ -7,7 +7,7 @@ function Banner() {
   <div  className='relative h-[300px] sm:h[400px] 
   lg:h-[500px] xl:h-[600px]
   2xl:h-[700px]' >
-      <Image priority className='bg-gradient-to-b 
+      <Image priority={true} className='bg-gradient-to-b 
       from-blue-400' 
       src={hero}
       layout='fill'
